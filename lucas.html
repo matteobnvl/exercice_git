@@ -4,27 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Page lucas</title>
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
     <h1 class="title-lucas">HELLO WORLD</h1>
     <h3 id="bloc-lucas"></h3>
+    <div class="slide">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJb80rAmthAcFNE7o3UL2GgeZq6aqx4kgaaw&usqp=CAU" alt="img" width="50%">
+    </div>
 </body>
 </html>
 
 <script>
     const texte = "Bonjour je suis lucas et c'est une des pages de l'exercice.";
-let index = 0;
+    let index = 0;
 
-function afficherLettre() {
-  const machineAEcrire = document.getElementById("bloc-lucas");
-  machineAEcrire.innerHTML += texte.charAt(index);
-  index++;
-  if (index > texte.length) {
-    clearTimeout(timer);
-  }
-}
+    function afficherLettre() {
+        const machineAEcrire = document.getElementById("bloc-lucas");
+        machineAEcrire.innerHTML += texte.charAt(index);
+        index++;
+        if (index > texte.length) {
+            clearTimeout(timer);
+        }
+    }
 
-const timer = setInterval(afficherLettre, 100);
+    const timer = setInterval(afficherLettre, 100);
 </script>
