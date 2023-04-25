@@ -1,3 +1,53 @@
+*{
+    background-color: black;
+    color: white;
+}
+
+.img-matteo{
+    opacity: 0;
+    transition: all .4s;
+}
+
+.active-matteo{
+    opacity: 1 !important;
+    transition: all .4s;
+}
+
+.title-lucas{
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+}
+
+#bloc-lucas{
+    text-align: center;
+}
+
+.title-louis {
+    color: magenta;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.second-title-louis {
+    color: orange;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content-louis {
+    text-align: center;
+    color: blue;
+    height: auto;
+    margin: auto;
+    width: 75%;
+}
+.second-content-louis {
+    text-align: center;
+    color: crimson;
+    height: auto;
+    margin: auto;
+    width: 75%;
+}
+
 #easter-egg {
     position: absolute;
     top: -50px;
