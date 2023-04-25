@@ -119,3 +119,19 @@
     background-color: #f00;
     box-shadow: 0 0 20px #f00;
 }
+
+
+.titre-arthur{
+    font-size: 40px;
+    color: yellow;
+}
+
+.lorem1-arthur{
+    font-size: 20px;
+    color: purple;
+}
+
+.lorem2-arthur{
+    font-size: 20px;
+    color: rgb(255, 0, 0);
+}
