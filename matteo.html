@@ -13,6 +13,9 @@
     <button id="btn">clic ici</button>
 
     <img id="img" class="img-matteo" src="https://www.chadoux.com/wp-content/uploads/2022/05/memes-drole-de-chat.png" alt="image chat">
+
+    <button id="btn2">Nouveau bouton</button>
+    <img id="img2" class="img-matteo" src="https://maville.com/photosmvi/2018/08/08/P17952300D3505652G.jpg" alt=" autre image cat">
 </body>
 <script>
     const btn = document.getElementById('btn')
@@ -20,6 +23,12 @@
 
     btn.addEventListener('click', function() {
         img.classList.toggle('active-matteo')
+    })
+
+    const btn2 = document.getElementById('btn2')
+    const img2 = document.getElementById('img2')
+    btn2.addEventListener('click', function() {
+        img2.classList.toggle('active-matteo')
     })
 </script>
 </html>

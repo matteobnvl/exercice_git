@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page avec easter eggs</title>
+	<link href="styles/style.css" rel="stylesheet" />
+
+</head>
+<body>
+	<h1>Easter eggs!</h1>
+	<p>Cliquez sur le cercle jaune pour découvrir des surprises!</p>
+    <p>Attention 2 autre easter egg sont caché essaye de les trouver (une combinaison de touches est nécessaire)</p>
+	<div id="easter-egg"></div>
+    <button id="boutonSolution">click pour appercevoir les solutions</button>
+    <div id="solution">
+        <p>solution 1: press ctrl, maj et la touche j</p>
+        <p>solution 2: press alt, et la touche f</p>
+    </div>
+
+    <div id="easter-egg-1" class="easter-egg-1">
+		<img src="https://imgflip.com/s/meme/Futurama-Fry.jpg">
+	</div>
+    <div id="easter-egg-2" class="easter-egg-1">
+		<img src="https://a.pinatafarm.com/1500x1005/2347970ac0/jackie-chan-confused.jpg" >
+	</div>
+	
+	<script>
+		var egg = document.getElementById('easter-egg');
+        var btn = document.getElementById('boutonSolution')
+		
+		egg.addEventListener('click', function() {
+			alert('Bravo! Vous avez trouvé un easter egg!');
+			egg.style.display = 'none';
+            changeBg();
+		});
+
+        btn.addEventListener('click', function(){
+            solution.style.display= 'block'
+        })
+
+        function changeBg() {
+            document.body.style.backgroundImage = 'url("https://picsum.photos/1200/800")';
+            setTimeout(changeBg, 2000);
+        }
+
+        document.addEventListener("keydown", function(event) {
+			if (event.code === "KeyJ" && event.shiftKey && event.ctrlKey) {
+				document.getElementById("easter-egg-1").style.display = "block";
+			}
+
+			if (event.code === "KeyF" && event.altKey) {
+				document.getElementById("easter-egg-2").style.display = "block";
+			}
+		});
+	</script>
+</body>
+</html>
