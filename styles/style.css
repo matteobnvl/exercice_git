@@ -1,9 +1,23 @@
-body .title-lucas{
+*{
+    background-color: black;
+    color: white;
+}
+
+.img-matteo{
+    opacity: 0;
+    transition: all .4s;
+}
+
+.active-matteo{
+    opacity: 1 !important;
+    transition: all .4s;
+
+.title-lucas{
     text-align: center;
     color: red;
     text-decoration: underline;
 }
 
-body #bloc-lucas{
+#bloc-lucas{
     text-align: center;
 }
