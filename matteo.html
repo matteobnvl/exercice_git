@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mattéo</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <h1>Ici la page de Mattéo Bonneval</h1>
+
+    <button id="btn">clic ici</button>
+
+    <img id="img" class="img-matteo" src="https://www.chadoux.com/wp-content/uploads/2022/05/memes-drole-de-chat.png" alt="image chat">
+</body>
+<script>
+    const btn = document.getElementById('btn')
+    const img = document.getElementById('img')
+
+    btn.addEventListener('click', function() {
+        img.classList.toggle('active-matteo')
+    })
+</script>
+</html>
