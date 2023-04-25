@@ -1,6 +1,6 @@
 # exercice_git
 
-![Texte alternatif](/Capture.png "Titre de l'image").
+![Image de la page index](Capture.PNG "Titre de l'image").
 
 ## Membre de l'équipe :
  - Hus Louis
@@ -8,3 +8,6 @@
  - Reynaud Lucas
  - Servary Nicolas
  - Bonneval Mattéo
+
+ ## Url du site
+[matteobnvl.github.io](https://matteobnvl.github.io/exercice_git/).

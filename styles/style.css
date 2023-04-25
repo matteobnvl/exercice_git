@@ -24,28 +24,55 @@
 }
 
 .title-louis {
-    color: magenta;
+    color: blue;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .second-title-louis {
-    color: orange;
+    color: blue;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
 }
 .content-louis {
     text-align: center;
-    color: blue;
+    color: white;
     height: auto;
     margin: auto;
     width: 75%;
 }
 .second-content-louis {
     text-align: center;
-    color: crimson;
+    color: white;
     height: auto;
     margin: auto;
     width: 75%;
+}
+
+.slide{
+    text-align: center;
+    position: absolute;
+    left: -80%;
+    width: 100%;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 1s forwards;
+    animation-delay: 1s;
+}
+
+@-webkit-keyframes slide {
+    100% { left: 0; } 
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
+
+.image-louis {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 #easter-egg {
@@ -58,6 +85,9 @@
     border-radius: 50%;
     cursor: pointer;
     transition: all 0.5s ease-in-out;
+}
+#solution {
+    display: none;
 }
 .easter-egg-1 {
     display: none;
@@ -73,7 +103,7 @@
 
 #easter-egg-1 {
     top: 20%;
-    left: 20%;
+    left: 40%;
 }
 
 #easter-egg-2 {
@@ -88,4 +118,20 @@
     transform: rotate(360deg);
     background-color: #f00;
     box-shadow: 0 0 20px #f00;
+}
+
+
+.titre-arthur{
+    font-size: 40px;
+    color: yellow;
+}
+
+.lorem1-arthur{
+    font-size: 20px;
+    color: purple;
+}
+
+.lorem2-arthur{
+    font-size: 20px;
+    color: rgb(255, 0, 0);
 }
