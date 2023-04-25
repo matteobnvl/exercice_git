@@ -24,28 +24,36 @@
 }
 
 .title-louis {
-    color: magenta;
+    color: blue;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .second-title-louis {
-    color: orange;
+    color: blue;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
 }
 .content-louis {
     text-align: center;
-    color: blue;
+    color: white;
     height: auto;
     margin: auto;
     width: 75%;
 }
 .second-content-louis {
     text-align: center;
-    color: crimson;
+    color: white;
     height: auto;
     margin: auto;
     width: 75%;
+}
+
+.image-louis {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 #easter-egg {
