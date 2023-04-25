@@ -11,6 +11,7 @@
 .active-matteo{
     opacity: 1 !important;
     transition: all .4s;
+}
 
 .title-lucas{
     text-align: center;
